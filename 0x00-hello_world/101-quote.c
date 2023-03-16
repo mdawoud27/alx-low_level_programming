@@ -1,17 +1,14 @@
+#include <stdio.h>
 #include <unistd.h>
 
 /**
- * main - Entry point
- *
- * Description: A C program that bla bla bla
- * write(int fd, const void *buffer*, size_t count)
- *
- * Return: Always 1 (not success)
-*/
-
+ * main - prints exactly "and that piece of art is useful"
+ * - Dora Korpar, 2015-10-19",
+ * followed by a new line, to the standard error.
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char arr[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	write(1, arr, 59);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
