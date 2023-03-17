@@ -15,6 +15,6 @@ int main(void)
 		printf("%d", i);
 	for (ch = 'a'; ch <= 'f'; ch++)
 		printf("%c", ch);
-	ptintf("\n");
+	printf("\n");
 	return (0);
 }
