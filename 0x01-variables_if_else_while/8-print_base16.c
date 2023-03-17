@@ -8,6 +8,13 @@
 
 int main(void)
 {
-	printf("0123456789abcdef\n");
+	int i;
+	char ch;
+
+	for (i = 0; i <= 9; i++)
+		printf("%d", i);
+	for (ch = 'a'; ch <= 'f'; ch++)
+		printf("%c", ch);
+	ptintf("\n");
 	return (0);
 }
