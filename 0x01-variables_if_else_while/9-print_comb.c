@@ -16,5 +16,6 @@ int main(void)
 		if (i != 9)
 			printf(", ");
 	}
+	printf("\n");
 	return (0);
 }
