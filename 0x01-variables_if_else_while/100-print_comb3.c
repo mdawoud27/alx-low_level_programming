@@ -17,7 +17,7 @@ int main(void)
 			if (i < j && i != j)
 			{
 				printf("%d%d", i, j);
-				if (i != 8 && j != 9)
+				if (!((i == 8) && (j == 9)))
 				{
 					printf(", ");
 				}
