@@ -17,10 +17,14 @@ int main(void)
 			for (k = 2; k <= 9; k++)
 			{
 				if ((i != j && j != k && k != i) && (j > i && j < k))
+				{
 					printf("%d%d%d", i, j, k);
-				if (i == 7 && j == 8 && k == 9)
-					continue;
-				printf(", ");
+					if (i == 7 && j == 8 && k == 9)
+					{
+						continue;
+					}
+					printf(", ");
+				}
 			}
 		}
 	}
