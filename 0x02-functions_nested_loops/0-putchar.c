@@ -2,14 +2,14 @@
 
 /**
  * main - Entry point
- * prints by _putchar
+ * prints by _putchar function
  * Return: 0 always wins
  */
 
 int main(void)
 {
-	char str[] = "_putchar";
 	int i;
+	char str[] = "_putchar";
 
 	for (i = 0; i <= 7; i++)
 	{
