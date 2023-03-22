@@ -2,14 +2,13 @@
 
 /**
  * main - Entry point
- * program that finds and prints the first 98 Fibonacci numbers
+ *
  * Return: 0 always wins
  */
-
 int main(void)
 {
-	long int first = 0, second = 1, temp = 1, i;
-
+	long int i, first = 0, second = 1, temp = 1;
+	
 	for (i = 1; i <= 98; i++)
 	{
 		temp = first + second;
