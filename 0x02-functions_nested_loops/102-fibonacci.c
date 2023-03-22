@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	long long first = 0, second = 1, temp = 1;
+	int i, first = 0, second = 1, temp = 1;
 
 	for (i = 1; i <= 50; i++)
 	{
