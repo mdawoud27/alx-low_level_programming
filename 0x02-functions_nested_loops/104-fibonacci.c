@@ -16,7 +16,7 @@ int main(void)
 		if (i != 98)
 			printf("%ld, ", temp);
 		else
-			printf("%d", temp);
+			printf("%ld", temp);
 		first = second;
 		second = temp;
 		return (0);
