@@ -13,7 +13,10 @@ int main(void)
 	for (i = 1; i <= 50; i++)
 	{
 		temp = first + second;
-		printf("%lld", temp);
+		if (i != 50)
+			printf("%d, ", temp);
+		else
+			printf("%d", temp);
 		first = second;
 		second = temp;
 	}
