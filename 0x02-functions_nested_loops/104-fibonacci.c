@@ -19,6 +19,7 @@ int main(void)
 			printf("%ld", temp);
 		first = second;
 		second = temp;
-		return (0);
 	}
+	printf("\n");
+	return (0);
 }
