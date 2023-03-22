@@ -15,14 +15,26 @@ void jack_bauer(void)
 		for (minute = 0; minute < 60; minute++)
 		{
 			if (hour <= 9)
-				printf("0%d:", hour);
+			{
+				_putchar('0');
+				_putchar(hour + '0');
+				_putchar(':');
+			}
 			else
-				printf("%d:", hour);
+			{
+				_putchar(hour + '0');
+				_putchar(':');
+			}
 			if (minute <= 9)
-				printf("0%d", minute);
+			{
+				_putchar('0');
+				_putchar(minute + '0');
+			}
 			else
-				printf("%d", minute);
-			printf("\n");
+			{
+				_putchar(minute + '0');
+			}
+			_putchar('\n');
 		}
 	}
 }
