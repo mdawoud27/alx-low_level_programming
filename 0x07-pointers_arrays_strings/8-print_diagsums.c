@@ -5,12 +5,12 @@
  * @a: pointer int
  * @size: int size
  *
- * Return: Always 0.
+ * Return: 0 always wins
  */
+
 void print_diagsums(int *a, int size)
 {
-	int i, j;
-	int vd1 = 0, vd2 = 0, limit = 1;
+	int i, j, val_1 = 0, val_2 = 0, limit = 1;
 
 	for (i = 0; i < size; i++)
 	{
@@ -18,14 +18,14 @@ void print_diagsums(int *a, int size)
 		{
 			if (i == j)
 			{
-				vd1 += *(a + ((i * size) + j));
+				val_1 += *(a + ((i * size) + j));
 			}
 			if ((size - limit) == j)
 			{
-				vd2 += *(a + ((i * size) + j));
+				val_2 += *(a + ((i * size) + j));
 				limit++;
 			}
 		}
 	}
-	printf("%d, %d\n", vd1, vd2);
+	printf("%d, %d\n", val_1, val_2);
 }
