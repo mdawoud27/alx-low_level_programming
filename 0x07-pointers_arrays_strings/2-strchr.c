@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * _strchr - check character
+ * _strchr - function that locates a character in a string.
  * @s: string of characters
  * @c: char
  * Return: string
  */
+
 char *_strchr(char *s, char c)
 {
 	while (*s != '\0')
