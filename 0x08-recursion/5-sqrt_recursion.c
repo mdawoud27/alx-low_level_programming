@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * _sqrt - fint aqrt
- * @n: number
- * @i: number
- * Return: number
+ * _sqrt - function that returns the natural square root of a number.
+ *
+ * @n: An number
+ * @i: An number
+ * Return: The sqrt of the number
  */
+
 int _sqrt(int n, int i)
 {
 	if (i * i > n)
@@ -20,6 +22,7 @@ int _sqrt(int n, int i)
  * @n: number
  * Return: number
  */
+
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
