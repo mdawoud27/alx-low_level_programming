@@ -18,6 +18,7 @@ char *_strdup(char *str)
 		return (0);
 	for (i = 0; i < strlen(str); i++)
 		new_str[i] = str[i];
+	new_str[i] = '\0';
 
 	return (new_str);
 }
