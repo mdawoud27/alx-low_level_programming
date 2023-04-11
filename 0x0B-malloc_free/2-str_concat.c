@@ -16,9 +16,9 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL)
 		len_s2 = strlen(s2);
-	else if (s2 == NULL)
+	 if (s2 == NULL)
 		len_s1 = strlen(s1);
-	else
+	if (s1 == NULL && s2 == NULL)
 		len_s1 = len_s2 = 0;
 	if (new_str == NULL)
 		return (0);
