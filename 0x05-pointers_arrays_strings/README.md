@@ -1,4 +1,4 @@
-## This is a brief overview of 0x04-more_functions_nested_loops task
+## This is a brief overview of 0x05-pointers_arrays_strings task
 ___
 ### **Concepts**
 * [Pointers and arrays](https://intranet.alxswe.com/concepts/60)
