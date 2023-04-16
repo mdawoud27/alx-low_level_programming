@@ -30,8 +30,7 @@ ___
 * [Hash-bang under the hood](https://intranet.alxswe.com/rltoken/zwv5CHLybXN6KFmsjbu_tg)
 * [Linus Torvalds on C vs. C++](https://intranet.alxswe.com/rltoken/JrokM8Pk6bd9wPqQvEfSAA)
 
-**man or help**:
-
+**man or help**: 
 `gcc`
 `printf (3)`
 `puts`
