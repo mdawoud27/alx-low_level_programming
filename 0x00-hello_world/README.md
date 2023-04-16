@@ -18,6 +18,8 @@ ___
 
 
 ### **Resources**
+**Read or watch**:
+
 * [Dennis Ritchie](https://intranet.alxswe.com/rltoken/YWFrRob_-Yo-_NQikMLI-g)
 * [“C” Programming Language: Brian Kernighan](https://intranet.alxswe.com/rltoken/W4oygfMgAp5Hyc7o6QuSYQ)
 * [Why C Programming Is Awesome](https://intranet.alxswe.com/rltoken/WYdE1novaWa0yt5fzGvLBw)
@@ -27,3 +29,9 @@ ___
 * [Betty Coding Style](https://intranet.alxswe.com/rltoken/Iu2Vb1CbDPMHuDJG1iILKA)
 * [Hash-bang under the hood](https://intranet.alxswe.com/rltoken/zwv5CHLybXN6KFmsjbu_tg)
 * [Linus Torvalds on C vs. C++](https://intranet.alxswe.com/rltoken/JrokM8Pk6bd9wPqQvEfSAA)
+
+**man or help**:
+`gcc`
+`printf (3)`
+`puts`
+`putchar`
