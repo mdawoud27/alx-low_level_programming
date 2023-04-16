@@ -23,6 +23,8 @@ ___
 
 
 ### **Resources**
+**Read or watch:**
+
 * [Keywords and identifiers](https://intranet.alxswe.com/rltoken/58ThnAAxwJv5s_ceKMMPhw)
 * [integers](https://intranet.alxswe.com/rltoken/2sXkmDiD7BF7pNIOxMQWFA)
 * [Arithmetic Operators in C](https://intranet.alxswe.com/rltoken/S-b9MN2iELhSEwCI093Vzw)
@@ -32,3 +34,7 @@ ___
 * [Logical operators](https://intranet.alxswe.com/rltoken/TaX_y6ll4cRfxCrxG8ZuNQ)
 * [while loop in C](https://intranet.alxswe.com/rltoken/mwx2_bj3gIFEgCqdwdTp4w)
 * [While loop](https://intranet.alxswe.com/rltoken/MW4Ob-6JLWt7Zn6vZ0EsBw)
+
+**man or help:**
+
+`ascii` (You do not need to learn about `scanf`, `getc`, `getchar`, `EOF`, `EXIT_SUCCESS`, `time`, `rand`, `srand`, `RAND_MAX`, `for` loops, `do...while` loops, functions.)
