@@ -1,4 +1,4 @@
-## This is a brief overview of 0x0B. C - malloc, free task
+## This is a brief overview of (0x0B. C - malloc, free) task
 ___
 
 ### **Concepts**
