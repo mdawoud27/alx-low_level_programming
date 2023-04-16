@@ -31,6 +31,7 @@ ___
 * [Linus Torvalds on C vs. C++](https://intranet.alxswe.com/rltoken/JrokM8Pk6bd9wPqQvEfSAA)
 
 **man or help**:
+
 `gcc`
 `printf (3)`
 `puts`
