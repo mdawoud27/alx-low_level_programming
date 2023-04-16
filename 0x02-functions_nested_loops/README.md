@@ -1,4 +1,4 @@
-## This is a brief overview of 0x00-hello_world task
+## This is a brief overview of 0x02-functions_nested_loops task
 ___
 
 ### **General Topics**
