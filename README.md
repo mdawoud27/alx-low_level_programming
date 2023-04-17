@@ -16,3 +16,4 @@ Here's a brief overview of each directory:
 * ## **[0x0A-argc_argv](https://github.com/mdawoud27/alx-low_level_programming/tree/main/0x0A-argc_argv)**: 0x0A. C - argc, argv
 * ## **[0x0B-malloc_free](https://github.com/mdawoud27/alx-low_level_programming/tree/main/0x0B-malloc_free)**: 0x0B. C - malloc, free
 * ## **[0x0C-more_malloc_free](https://github.com/mdawoud27/alx-low_level_programming/tree/main/0x0C-more_malloc_free)**: 0x0C. C - More malloc, free
+* ## **[0x0E-structures_typedef](https://github.com/mdawoud27/alx-low_level_programming/tree/main/0x0E-structures_typedef)**: 0x0E. C - Structures, typedef
