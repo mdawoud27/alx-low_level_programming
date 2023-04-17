@@ -9,7 +9,7 @@
  *
  * Description: This structure contains of info about
  * dog[name, age, owner]
- * 
+ *
  * ~dawoud
  */
 struct dog
