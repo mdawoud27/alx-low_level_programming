@@ -13,10 +13,14 @@ int main(int argc, char *argv[])
 {
 	if (argc != 2)
 		return (printf("Error\n"), 1);
+
 	int num_bytes = atoi(argv[1]);
+
 	if (num_bytes <= 0)
 		return (printf("Error\n"), 2);
+
 	char *buffer = (char *) main;
+
 	print_opcodes(buffer, num_bytes);
 	return (0);
 }
