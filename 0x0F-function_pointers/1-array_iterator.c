@@ -13,10 +13,9 @@
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	size_t it;
+	int *max = array + size - 1;
 
-	if (!size || !action)
-		return;
-	for (it = 0; it < size; it++)
-		action(array[it]);
+	if (array && size && action)
+		while(array <= max)
+			action(*array++);
 }
