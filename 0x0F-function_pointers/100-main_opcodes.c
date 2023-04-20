@@ -11,30 +11,23 @@ void print_opcodes(char *buffer, int num_bytes);
  */
 int main(int argc, char *argv[])
 {
+	char *ptr = (char *)main;
+	int n;
+
 	if (argc != 2)
-		return (printf("Error\n"), 1);
-
-	int num_bytes = atoi(argv[1]);
-
-	if (num_bytes <= 0)
-		return (printf("Error\n"), 2);
-
-	char *buffer = (char *) main;
-
-	print_opcodes(buffer, num_bytes);
+	{
+		printf("Error\n");
+		exit(1);
+	}
+	n = atoi(argv[1]);
+	if (n < 0)
+	{
+		printf("Error\n");
+		exit(2);
+	}
+	while (n--)
+	{
+		printf("%02hhx%s", *ptr++, n ? " " : "\n");
+	}
 	return (0);
-}
-
-/**
- * print_opcodes - a function prints the opcodes
- * @buffer: buffer
- * @num_bytes: num of bytes
- */
-void print_opcodes(char *buffer, int num_bytes)
-{
-	int it;
-
-	for (it = 0; it < num_bytes; it++)
-		printf("%02hhx", buffer[it]);
-	printf("\n");
 }
