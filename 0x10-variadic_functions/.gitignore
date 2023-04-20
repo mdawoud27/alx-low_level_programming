@@ -1,0 +1,5 @@
+*main.c
+a
+b
+c
+d
