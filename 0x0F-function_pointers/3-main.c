@@ -11,33 +11,27 @@
  */
 int main(int argc, char **argv)
 {
-	int n1, n2, res;
-	char *ope;
-	int (*fun_ptr)(int, int);
+	int (*op_func)(int, int), n, m;
 
 	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
 	}
+	n = atoi(argv[1]);
+	m = atoi(argv[3]);
 
-	n1 = atoi(argv[1]);
-	ope = argv[2];
-	n2 = atoi(argv[3]);
-
-	if (get_op_func(argv[2]) == NULL || argv[2][1] != '\0')
+	op_func = get_op_func(argv[2]);
+	if (!op_func)
 	{
 		printf("Error\n");
 		exit(99);
 	}
-	if ((*ope == '/' || ope == '%') && (*argv[3] == '0'))
+	if (!m && (argv[2][0] == '/' || argv[2][0] == '%'))
 	{
 		printf("Error\n");
 		exit(100);
 	}
-	fun_ptr = get_op_func(ope);
-	res = fun_ptr(n1, n2);
-
-	printf("%d\n", res);
+	printf("%d\n", op_func(n, m));
 	return (0);
 }
