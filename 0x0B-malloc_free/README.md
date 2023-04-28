@@ -19,6 +19,5 @@ ___
 * [Dynamic memory allocation in C - malloc calloc realloc free](https://intranet.alxswe.com/rltoken/pfGb2oVIYLO_1a8jtFGQYw)
 
 **man or help**:
-
 `malloc`
 `free`
