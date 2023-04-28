@@ -8,7 +8,7 @@
  */
 void free_list(list_t *head)
 {
-	list_t *ptr = malloc(sizeof(list_t));
+	list_t *ptr;
 
 	while (head != NULL)
 	{
