@@ -6,11 +6,6 @@
 #include <string.h>
 
 /**
- * Header file for 0x13-more_singly_linked_lists task
- * ~dawoud
- */
-
-/**
  * struct listint_s - singly linked list
  *
  * @n: integer
