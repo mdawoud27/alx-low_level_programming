@@ -10,7 +10,10 @@
 /**
  * Header file for 0x14. C Bit manipulation
  * ~dawoud
-*/
+ * _putchar - fun
+ * @c: char
+ * Return: int
+ */
 int _putchar(char c);
 unsigned int binary_to_uint(const char *b);
 unsigned int power(unsigned int x, unsigned int n);
