@@ -11,7 +11,7 @@ int get_bit(unsigned long int n, unsigned int index)
 {
 	char *temp = binary_to_str(n);
 
-	if (index >= strlen(temp) || index > sizeof(n) * 8)
+	if (index > sizeof(n) * 8)
 		return (-1);
 	return (temp[index] - '0');
 }
