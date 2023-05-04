@@ -35,9 +35,9 @@ unsigned int binary_to_uint(const char *b)
  *
  * Return: x power n
  */
-int power(int x, int n)
+unsigned int power(unsigned int x, unsigned int n)
 {
-	int p = 1;
+	unsigned int p = 1;
 
 	while (n--)
 		p *= x;
