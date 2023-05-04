@@ -21,9 +21,26 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 
 		if (b[len] == '1')
-			sum += pow(2, i);
+			sum += power(2, i);
 		i++;
 	}
 
 	return (sum);
+}
+
+/**
+ * power - function to calc x power n
+ * @x: The main number
+ * @n: power
+ *
+ * Return: x power n
+ */
+int power(int x, int n)
+{
+	int p = 1;
+
+	while (n--)
+		p *= x;
+
+	return (p);
 }
