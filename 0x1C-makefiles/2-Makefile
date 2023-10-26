@@ -1,0 +1,9 @@
+CC = gcc
+SRC = main.c school.c 
+OBJ = main.o school.o 
+NAME = school
+
+all:
+    echo "gcc    -c -o main.o main.c"
+    echo "gcc    -c -o school.o school.c"
+    gcc $(CC) $(OBJ) -o $(NAME)
