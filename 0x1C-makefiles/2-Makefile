@@ -6,4 +6,4 @@ NAME = school
 all:
     echo "gcc    -c -o main.o main.c"
     echo "gcc    -c -o school.o school.c"
-    gcc $(CC) $(OBJ) -o $(NAME)
+    $(CC) $(OBJ) -o $(NAME)
